@@ -1,5 +1,21 @@
 p{
     color:mintcream;
     font-family:"Dela_Gothic_One/DelaGothicOne-Regular.ttf";
-    
+    font-size: small;
 }
+h1{
+    color:mintcream;
+    font-family:"Dela_Gothic_One/DelaGothicOne-Regular.ttf";
+    font-size: medium;
+}
+button{
+ background-color: honeydew;  
+ border:lightseagreen;
+ border-radius: 1cm;
+ color: royalblue;
+ text-align:center;
+ font-size:16px;
+
+}
+.button1{width: 16px;}
+
