@@ -1,3 +1,7 @@
+@font-face{
+    font-family:Dela;
+    src:url(Dela_Gothic_One/DelaGothicOne-Regular.ttf);
+}
 p{
     color:mintcream;
     font-family:"Dela_Gothic_One/DelaGothicOne-Regular.ttf";
@@ -7,16 +11,37 @@ h1{
     color:mintcream;
     font-family:"Dela_Gothic_One/DelaGothicOne-Regular.ttf";
     font-size: medium;
-    text-align:center;
+    text-align: center;
+}
+
+body{
+    background-color:deepskyblue;
 }
 button{
  background-color: honeydew;  
  border:lightseagreen;
  border-radius: 1cm;
  color: royalblue;
- text-align:center;
  font-size:16px;
 
 }
 .button1{width: 16px;}
+
+#title{
+    background-color:cornsilk;
+    font-size: 300px;
+    text-align: center;
+    box-shadow: 5px 5px;
+
+}
+.good{
+    color:chartreuse;
+    font-size: 18px;
+    font-family: Dela,Verdana, Tahoma, sans-serif;
+}
+
+.bad{
+    color:cadetblue;
+    font-size:18px;
+}
 
