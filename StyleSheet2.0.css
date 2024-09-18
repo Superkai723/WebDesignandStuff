@@ -3,8 +3,8 @@
     src:url(Dela_Gothic_One/DelaGothicOne-Regular.ttf);
 }
 @font-face{
-    font-family:NotoSans;
-    src:url(NotoSansJP-VariableFont_wght.tff)
+    font-family:NotoSansJP;
+    src:url(NotoSansJP-VariableFont_wght.tff);
 }
 p{
     color:mintcream;
@@ -47,5 +47,6 @@ button{
 .bad{
     color:cadetblue;
     font-size:18px;
+    font-family:NotoSansJP,Dela;
 }
 
