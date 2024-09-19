@@ -17,20 +17,20 @@
 <body style="background-color: skyblue;">
 
 <!--changed div id to titlee because it looked weird using title-->
-    <div id="titlee" style="background-color: lightblue;">
-    <h1 class="font-effect-fire-animation">A Webpage about HTML</h1>
+    <div id="titlee" style="background-color: lightblue; width: 100%; height: 100%;">
+    <h1 class="font-effect-fire-animation" style="font-size: 200%;">A Webpage about HTML</h1>
     <p style="text-align: center;"><a href="CSS.html"><button>next page ></button></a></p>
 
-        <p class="font-effect-fire-animation" style="text-align: center;">HTML stands for Hyper Text Markup Language. It tells the browser how to display the contents of a website.
+        <p class="font-effect-fire-animation" style="text-align: center; font-size: 100%;">HTML stands for Hyper Text Markup Language. It tells the browser how to display the contents of a website.
                                     It also is used with css frequently<br>
                                     HTML code was invented around 1993.</p>
         
-        <p style="text-align: center;"><img src="image1page1.jpg" alt="example of html code" style="width: 500px";/></p><br><br>
+        <p style="text-align: center;"><img src="image1page1.jpg" alt="example of html code" style="width: 30%";/></p><br><br>
     
     </div>
 
 
-    <div id="intro" style="box-sizing: border-box; border: rgb(140, 219, 255) solid 5px; width: 50%; float: left; height: 500px;">
+    <div id="intro" style="box-sizing: border-box; border: rgb(140, 219, 255) solid 5px; width: 50%; height: 500px; position: absolute; left:0%;">
 
         <ul>
             <li>lists can be made with html</li>
@@ -40,56 +40,57 @@
 
         <p>a "div" is a way to divide up the page to make it clearer for people looking at the code.</p>
 
+        <div id="table" style="box-sizing: border-box; width: 300px;">
+            <table table-border="5" width="200px" style="background-color:lightblue; float: left;"> <!--table-->
+                <thead>
+                    <tr>
+                        <th>command </th>
+                        <th>what it does</th>
+                    </tr>
+                </thead>
+                    <tr>
+                        <td> p /p </td>
+                        <td>makes a paragraph</td>
+                    </tr>
+                    <tr>
+                        <td> h /h </td>
+                        <td>makes a heading</td>
+                    </tr>
+                    <tr>
+                        <td> br </td>
+                        <td>puts a break in </td>
+                    </tr>
+                    <tr>
+                        <td>img </td>
+                        <td>puts an image in</td>
+                    </tr>
+                    <tr>
+                        <td>table</td>
+                        <td>makes a table</td>
+                    </tr>
+                </table><br>
+        </div>
+
     </div>
 
 
-    
-
-    <div id="conclusion" style="box-sizing: border-box; border: rgb(140, 219, 255) solid 5px; width: 50%; height: 500px; float: right;">
+    <div id="conclusion" style="box-sizing: border-box; border: rgb(140, 219, 255) solid 5px; width: 50%; height: 500px; position: absolute; right: 0%;">
 
 
         <p style="text-align: center;">This is an example of what the code for this website looks like</p>
         
-        <p style="text-align: center;"><img src="image2page1.png" alt="screenshot of code for this website" style="width: 700px;"/></p>
+        <p style="text-align: center;"><img src="image2page1.png" alt="screenshot of code for this website" style="width: 80%;"/></p>
 
 
 
-    </div>
-
-    <div id="table" style="box-sizing: border-box; width: 300px; margin-left: auto; margin-right: auto;">
-        <table table-border="5" width="200px" style="background-color:lightblue;"> <!--table-->
-            <thead>
-                <tr>
-                    <th>command </th>
-                    <th>what it does</th>
-                </tr>
-            </thead>
-                <tr>
-                    <td> p /p </td>
-                    <td>makes a paragraph</td>
-                </tr>
-                <tr>
-                    <td> h /h </td>
-                    <td>makes a heading</td>
-                </tr>
-                <tr>
-                    <td> br </td>
-                    <td>puts a break in </td>
-                </tr>
-                <tr>
-                    <td>img </td>
-                    <td>puts an image in</td>
-                </tr>
-                <tr>
-                    <td>table</td>
-                    <td>makes a table</td>
-                </tr>
-            </table><br>
     </div>
 
     <br><br>
-    <p style="text-align: center;"><a href="CSS.html"><button>Here's some information about CSS</button></a>
-    <a href="#"><button>Back to top ^</button></a></p>
+
+    <div id="buttons" style="box-sizing: border-box; border: skyblue solid 5px; height: 5%; width: 100%; position: absolute; bottom: 0%;">
+    <a href="CSS.html"><button>Here's some information about CSS</button></a>
+    <a href="#"><button>Back to top ^</button></a>
+    </div>
 
 </body>
 
