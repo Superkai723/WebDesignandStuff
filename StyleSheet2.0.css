@@ -1,21 +1,22 @@
 @font-face{
-    font-family:Dela;
-    src:url(Dela_Gothic_One/DelaGothicOne-Regular.ttf);
+    font-family: Dela;
+    src: url(Dela_Gothic_One/DelaGothicOne-Regular.ttf);
 }
 @font-face{
-    font-family:NotoSansJP;
-    src:url(NotoSansJP-VariableFont_wght.tff);
+    font-family: NotoSansJP;
+    src: url(NotoSansJP-VariableFont_wght.tff);
 }
 p{
     color:mintcream;
-    font-family:"Dela_Gothic_One/DelaGothicOne-Regular.ttf";
+    font-family:Dela;
     font-size: small;
 }
 h1{
     color:mintcream;
-    font-family:"Dela_Gothic_One/DelaGothicOne-Regular.ttf";
+    font-family:Dela;
     font-size: medium;
     text-align: center;
+    float: center;
 }
 
 body{
@@ -23,25 +24,29 @@ body{
 }
 button{
  background-color: honeydew;  
- border:lightseagreen;
- border-radius: 1cm;
+ border: solid blanchedalmond 5px;
  color: royalblue;
  font-size:16px;
+ margin-left: auto;
+ margin-right: auto;
 
 }
-.button1{width: 16px;}
+.button{width: 16px;}
 
-#title{
-    background-color:cornsilk;
+#title {
+    background-color:yellowgreen;
     font-size: 300px;
     text-align: center;
     box-shadow: 5px 5px;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 .good{
     color:chartreuse;
     font-size: 18px;
     font-family: Dela,Verdana, Tahoma, sans-serif;
+    float: center;
 }
 
 .bad{
@@ -49,4 +54,64 @@ button{
     font-size:18px;
     font-family:NotoSansJP,Dela;
 }
+#contents{
+    border:dotted greenyellow 5px;
+    width: 800px;
+    padding:5px;
+    margin-left: auto;
+    margin-right: auto;
+    left:250px;
+}
+#image{
+    border:solid whitesmoke 5px;
+    width: 500px;
+    height: 300px;
+    padding:10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    position:absolute;
+    left:200px
+}
+img{
+    float:left;
 
+}
+
+#ads{
+    background-color:darkorange;
+    float: left;
+    width: 40%;
+    height: 20%;
+    left:80%;
+
+}
+#menubar{
+    background-color: royalblue;
+    width:10%;
+    height:10%;
+    margin: 0;
+    padding: 0;
+    position:absolute;
+    float: left;
+    left:0px;
+    right:10%;
+}
+a:link{
+    color:chartreuse;
+    text-decoration:none;
+
+}
+a:visited{
+    color:chocolate;
+    text-decoration:none;
+}
+a:hover{
+    color:cornflowerblue;
+    text-decoration: none;
+    background-color: cornsilk;
+}
+a:active{
+    background-color:darkkhaki;
+}
