@@ -128,7 +128,7 @@ a:link{
 
 }
 a:visited{
-    color:chocolate;
+    color:limegreen;
     text-decoration:none;
 }
 a:hover{
@@ -138,4 +138,9 @@ a:hover{
 }
 a:active{
     background-color:darkkhaki;
+}
+.footer{
+    background-color: black;
+    padding: 2px;
+    text-align: center;
 }
