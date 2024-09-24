@@ -143,3 +143,14 @@ border-radius: 12px;
     text-align: center;
    
 }
+.container{
+    height: 200px;
+    position: relative;
+}
+.vertical-center{
+    margin:0;
+    position:absolute;
+    top:50%;
+    -ms-trasnform: translateY(-50%);
+    transform:translateY(-50%);
+}

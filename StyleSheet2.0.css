@@ -124,14 +124,13 @@ img{
     width:50%;
 }
 button{
- background-color: honeydew;  
- border: solid black 0.5px;
- color: royalblue;
- font-size:16px;
- margin-left: auto;
- margin-right: auto;
-border-radius: 12px;
-}
+    background-color: honeydew;  
+    border: solid black 0.5px;
+    color: royalblue;
+    font-size:16px;
+   border-radius: 12px;
+ 
+   }
 .footer{
     position:fixed;
     left:0;
@@ -143,6 +142,20 @@ border-radius: 12px;
     text-align: center;
    
 }
-
-
-
+.container{
+    height: 200px;
+    position: relative;
+}
+.vertical-center{
+    margin:0;
+    position:absolute;
+    top:50%;
+    -ms-trasnform: translateY(-50%);
+    transform:translateY(-50%);
+}
+.center{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    height: 0px;
+}
